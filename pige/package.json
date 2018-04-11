@@ -1,0 +1,33 @@
+{
+  "name": "pige",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "express": "^4.16.3",
+    "lib": "^3.0.2",
+    "mongodb": "^3.0.5",
+    "mongoose": "^4.5.1",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.4",
+    "react-native-button": "^2.3.0",
+    "react-native-modalbox": "^1.4.2",
+    "react-native-prompt": "^1.0.0",
+    "react-navigation": "^1.5.8",
+    "round-to": "^2.0.0",
+    "util": "*"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

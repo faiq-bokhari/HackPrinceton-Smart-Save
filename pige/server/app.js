@@ -20,9 +20,9 @@ var purchaseSchema = mongoose.Schema({
 var newtotalSchema = mongoose.Schema({
   total: Number
 });
-
+var key = '';
 var urlpurchase =
-'http://api.reimaginebanking.com/accounts/' + accountID + '/purchases?key=3b1eeb3b09c684ef800d53c6509a4c80';
+'http://api.reimaginebanking.com/accounts/' + accountID + '/purchases?key=' + key;
 
 var Purchase = mongoose.model('Purchase', purchaseSchema);
 
